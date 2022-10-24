@@ -11,3 +11,7 @@ def myping(host):
 
 
 print(myping("www.facebook.com"))
+
+
+
+#ping3 library
