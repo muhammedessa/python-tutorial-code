@@ -1,0 +1,284 @@
+#print("Muhammed Essa")
+
+
+
+
+def my_nameM(x):
+  z = x * 3
+  print(z)
+
+my_nameM(6)
+
+
+
+
+
+
+class Person:
+  def __init__(self,name,age,salary):
+    self.name = name
+    self.age = age
+    self.salary = salary
+  def __str__(self):
+    return f"Name: {self.name} Age: {self.age} Salary:{self.salary}"
+
+  def in_salary(self):
+    z = self.salary + 1000
+    print(z)
+
+
+    
+ 
+muhammed = Person("Muhammed",38,1000) 
+ahmed = Person("Ahmed",30,2000)
+ali = Person("Ali",45,3000)
+# print(muhammed.name )
+# print(muhammed.age )
+# print(muhammed.salary )
+# print(ahmed.name)
+# print(ali.name)
+print(muhammed)
+print(ahmed)
+print(ali)
+
+muhammed.in_salary()
+
+
+
+
+
+
+
+def my_name():
+  print("Muhammed Essa")
+
+#my_name()
+
+
+def my_name(lname):
+  print("Muhammed " + lname)
+
+
+
+# my_name("Samir")
+
+def my_name(fname,lname):
+  print(fname + lname)
+
+# my_name("Ali ","Ahmed")
+
+# *args
+def my_name(*names):
+  print( names )
+
+# my_name("Ahmed","Muhammed","Ali")
+
+
+# def my_name(fname,sname,lname):
+#   print(f"my firstname is {fname} my second is {sname}  my last is {lname} ")
+
+# my_name(sname="Essa",fname="Muhammed",lname="Hameed")
+   
+
+# **kwargs
+def my_name(**names):
+  print( names["lname"] + names["fname"])
+
+#my_name(fname="Ahmed",lname="Muhammed",sname="Ali")
+
+
+def my_name(city="Kirkuk"):
+  print(  city)
+  
+#my_name("Baghdad")
+
+
+
+def addNumbers(y):
+   return 2 * y
+
+#print(addNumbers(2))
+
+
+def changeToUpCase(myname):
+   return myname.upper() #to upper case
+
+
+# print(changeToUpCase("muhammed"))
+
+
+
+# mytext = input('Enter first name: ')
+# print("Hello "+mytext.upper())
+
+# mytext = input('Enter number: ')
+ 
+# # print( type(mytext))
+# print(  int(mytext)  * 4 )
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+# names = ["muhammed","Essa","Ahmed"]
+
+
+# print(names)
+
+# for a in names:
+#   print(a)
+
+
+# myname = "muhammed"
+
+# for a in myname:
+#   print(a)
+
+# for x in range(1,20,4):
+#     print(x)
+
+
+ #Dictionary
+
+# mydoc = {
+#   "name": "Muhammed",
+#   "last":"Essa", 
+#   "age":38,
+#   "years":[1,2,3,4,5,6]
+# }
+# print(mydoc["years"])
+# print(len(mydoc))
+# mydoc["department"]="Development"
+# print(mydoc)
+# mydoc.update({"last":"Hameed"})
+# print(mydoc)
+# mydoc.pop("age")
+# print(mydoc)
+
+
+#Sets
+
+# mynames = {"muhammed", "essa","hameed","hameed"}
+# print(mynames)
+# mynames.add("ali")
+# print(mynames)
+# mynames.remove("muhammed")
+# print(mynames)
+# mynames.add("hassan")
+# print(mynames)
+
+
+
+#Tuple
+
+# myPermissionLevel = ("admin","teacher","student","student")
+# print(len(myPermissionLevel))
+# print(myPermissionLevel)
+# mykey = ("Muhammed",)
+# ages = (1,2,3,4,5,6,7)
+# check1 = (False,True,True,False)
+# dataset = ("muhammed",1,False)
+# print(dataset[0])
+# mylist = list(myPermissionLevel)
+# print(mylist)
+# mylist[3] = "user"
+# print(mylist)
+# mytuple = tuple(mylist)
+# print(mytuple)
+
+#List
+
+# names = ["muhammed","Essa","Ahmed","Ahmed"]
+# ages = [1,2,3,4,5,6,7]
+# check1 = [False,True,True,False]
+# dataset = ["muhammed",1,False]
+# # print(len(names))
+# # print( names[1] )
+# print( names )
+# names.insert(0,"Hassan")
+# names.insert(1,"Ali")
+# print( names )
+
+# del(names[5])
+# print( names )
+
+
+
+
+
+
+
+
+
+
+led_off = False
+led_on = True 
+
+num1 = 10
+num2 = 20
+
+# if num1 == num2:
+#              print("num1 == num2") 
+# elif num1 > num2:
+#   print("num1 < num2") 
+# else:
+#   print("No") 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+age = 38
+name = "Muhammed Essa"
+last = 'Essa'
+myTest = 'Ali\'s have book'
+
+name2 = 'Osama\'s'
+name3 = "Osama"
+
+#print( f"Student  {name} {last} {age}"  )
+
+salary = 3000
+employeeinfo = "Muhammed salary {} dollar"
+
+#print(employeeinfo.format(salary))
+
+someText = """unknown printer 
+took a galley of type and 
+scrambled it to make a 
+type specimen book"""
+
+
+
+
+someText2 = '''unknown printer 
+took a galley of type and 
+scrambled it to make a 
+type specimen book'''
+
+temp = 0.00003
+# print(name)
+# print(age)
+
+num1 = 10
+dgree = 55.2
